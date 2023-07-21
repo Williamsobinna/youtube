@@ -1,0 +1,1400 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+    position: fixed;
+    padding-left: 30%;
+    background-color: #213844;
+}
+
+nav .cast{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+nav .search{
+    width: 40%;
+}
+
+nav .user{
+    width: 50%;
+    display: flex;
+}
+
+nav .user img{
+    height: 45px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+nav .user button{
+    padding: 10px 20px;
+    border-radius: 50%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav .cast .search  .nosubmit input {
+    margin: auto;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    width: 55%;
+    padding: 20px 0px 20px 40px;
+    background: rgba(255, 255, 255, 0.404) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 15px center;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 18px;
+    padding-right: 450px;
+}
+
+.body{
+    height: 1000px;
+}
+
+.body .lef{
+    width: 20%;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+}
+
+.lef .logo{
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: center;
+    height: 60px;
+}
+
+.logo .icon{
+    height: 28px;
+    margin-right: 20px;
+}
+
+.logo .log{
+    height: 37px;
+}
+
+.lef .home{
+    display: flex;
+    height: 70px;
+    color: white;
+    margin-top: 35px;
+}
+
+.lef .home img{
+    margin-left: 50px;
+    height: 30px;
+}
+
+.lef .home h3{
+    margin-left: 35px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lef .explore{
+    display: flex;
+    height: 70px;
+    color: white;
+}
+
+.lef .explore img{
+    margin-left: 50px;
+    height: 30px;
+}
+
+.lef .explore h3{
+    margin-left: 35px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lef .library{
+    display: flex;
+    height: 70px;
+    color: white;
+}
+
+.lef .library img{
+    margin-left: 50px;
+    height: 30px;
+}
+
+.lef .library h3{
+    margin-left: 35px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lef .upgrade{
+    display: flex;
+    height: 70px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.lef .upgrade img{
+    margin-left: 50px;
+    height: 30px;
+}
+
+.lef .upgrade h3{
+    margin-left: 35px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lef .divs{
+    height: 10px;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid lightgray;
+}
+
+.play{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px 70px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.play img{
+    height: 25px;
+    margin-right: 15px;
+}
+
+.play p{
+    color: white;
+    font-size: 20px;
+}
+
+.likes{
+    height: 60px;
+    margin-left: 20px;
+    color: white;
+    margin-top: 70px;
+}
+
+.likes .pin{
+    display: flex;
+}
+
+.likes h3{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 28px;
+}
+
+.likes .pin img{
+    height: 22px;
+    margin-right: 10px;
+}
+
+.body .right{
+    margin-left: 20%;
+    width: 80%;
+    background-image: linear-gradient(to bottom, #223a46, rgb(0, 0, 0));
+    height: 3000px;
+}
+
+.body .right .btn{
+    height: 50px;
+    margin-left: 180px;
+    padding-top: 150px;
+}
+
+.body .right .btn button{
+    color: #ffff;
+    background-color: #ffffff56;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.body .right .banner1{
+    height: 100px;
+    margin-top: 80px;
+}
+
+.ban1{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban1 .left{
+    height: 100px;
+   width: 45%;
+    display: flex;
+}
+
+.ban1 .left .txt{
+    margin-left: 50px;
+    color: white;
+}
+
+.ban1 .left .txt p{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.ban1 .left .txt h3{
+    font-size: 30px;
+}
+
+.ban1 .left button{
+    padding: 10px 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner1 .ban1 .righ{
+    height: 100px;
+    width: 45%;
+    color: transparent;
+    background-color: none;
+    text-align: right;
+}
+
+.ban1 .righ img{
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+.banner2{
+    height: 400px;
+    margin-top: 70px;
+}
+
+.banner2 .ban2{
+    width: 77%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban2 .first{
+    width: 32%;
+    height: 400px;
+}
+
+.ban2 .second{
+    width: 32%;
+    height: 400px;
+}
+
+.ban2 .third{
+    width: 32%;
+    height: 400px;
+}
+
+.ban2 .first .one{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .first .one img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .first .one .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .first .one .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .first .one .txt p{
+    font-size: 13px;
+}
+
+.ban2 .first .one .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban2 .first .two{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .first .two img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .first .two .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .first .two .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .first .two .txt p{
+    font-size: 13px;
+}
+
+.ban2 .first .two .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban2 .first .thre{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .first .thre img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .first .thre .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .first .thre .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .first .thre .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban2 .first .thre .txt p{
+    font-size: 13px;
+}
+
+.ban2 .first .thre .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.ban2 .first .four{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .first .four img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .first .four .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .first .four .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .first .four .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban2 .first .four .txt p{
+    font-size: 13px;
+}
+
+.ban2 .first .four .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban2 .second .one{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .second .one img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .second .one .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .second .one .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .second .one .txt p{
+    font-size: 13px;
+}
+
+.ban2 .second .one .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban2 .second .two{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .second .two img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .second .two .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .second .two .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .second .two .txt p{
+    font-size: 13px;
+}
+
+.ban2 .second .two .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban2 .second .thre{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .second .thre img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .second .thre .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .second .thre .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .second .thre .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban2 .second .thre .txt p{
+    font-size: 13px;
+}
+
+.ban2 .second .thre .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.ban2 .second .four{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .second .four img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .second .four .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .second .four .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .second .four .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban2 .second .four .txt p{
+    font-size: 13px;
+}
+
+.ban2 .second .four .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+
+.ban2 .third .one{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .third .one img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .third .one .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .third .one .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .third .one .txt p{
+    font-size: 13px;
+}
+
+.ban2 .third .one .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban2 .third .two{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .third .two img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .third .two .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .third .two .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .third .two .txt p{
+    font-size: 13px;
+}
+
+.ban2 .third .two .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban2 .third .thre{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .third .thre img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .third .thre .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .third .thre .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .third .thre .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban2 .third .thre .txt p{
+    font-size: 13px;
+}
+
+.ban2 .third .thre .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.ban2 .third .four{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban2 .third .four img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban2 .third .four .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban2 .third .four .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban2 .third .four .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban2 .third .four .txt p{
+    font-size: 13px;
+}
+
+.ban2 .third .four .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.banner3{
+    height: 50px;
+    margin-top: 200px;
+}
+
+.ban3{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban3 .left h3{
+    color: white;
+    font-size: 40px;
+}
+
+.ban3 .righ{
+    height: 50px;
+}
+
+.ban3 .righ button{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    padding: 15px 22px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.banner4{
+    height: 250px;
+    margin-top: 50px;
+}
+
+.ban4{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.ban4 .left{
+    width: 65%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban4 .left .one{
+    width: 30%;
+    height: 250px;
+}
+
+.ban4 .left .two{
+    width: 30%;
+    height: 250px;
+}
+
+.ban4 .left .three{
+    width: 30%;
+    height: 250px;
+}
+
+.ban4 .left img{
+    height: 220px;
+    width: 220px;
+}
+
+.ban4 .left h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.ban4 .left p{
+    color: rgb(196, 193, 193);
+    font-size: 18px;
+}
+
+.ban4 .righ{
+    width: 30%;
+    height: 150px;
+}
+
+.banner5{
+    height: 100px;
+    margin-top: 400px;
+}
+
+.ban5{
+    height: 100px;
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban5 .left{
+    width: 50%;
+    height: 100px;
+    color: white;
+}
+
+.ban5 .left h3{
+    font-size: 35px;
+}
+
+.banner5 .ban5 .righ{
+    height: 100px;
+    width: 50%;
+    color: transparent;
+    background-color: none;
+    text-align: right;
+}
+
+.ban5 .righ img{
+    margin-right: 20px;
+}
+
+.banner6{
+    height: 300px;
+}
+
+.banner6 .ban6{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ban6 .one{
+    height: 300px;
+    width: 15%;
+}
+
+.ban6 .two{
+    height: 300px;
+    width: 15%;
+}
+
+.ban6 .three{
+    height: 300px;
+    width: 15%;
+}
+
+.ban6 .four{
+    height: 300px;
+    width: 15%;
+}
+
+.ban6 .five{
+    height: 300px;
+    width: 15%;
+}
+
+.ban6 .six{
+    height: 300px;
+    width: 15%;
+}
+
+.ban6 img{
+    height: 180px;
+    width: 180px;
+}
+
+.ban6 p img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.ban6 h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.ban6 p{
+    color: rgb(196, 193, 193);
+    font-size: 15px;
+}
+
+.banner7{
+    margin-top: 250px;
+    height: 30px;
+}
+
+.banner7 .ban7{
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    color: white;
+}
+
+.ban7 h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.banner8{
+    height: 90px;
+}
+
+.ban8 {
+    height: 90px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.ban8 .left{
+    width: 50%;
+    height: 90px;
+    color: white;
+}
+
+.ban8 .left h3{
+    font-size: 35px;
+}
+
+.banner8 .ban8 .righ{
+    height: 90px;
+    width: 50%;
+    color: transparent;
+    background-color: none;
+    text-align: right;
+}
+
+.ban8 .righ img{
+    margin-right: 20px;
+}
+
+
+.banner9{
+    height: 400px;
+}
+
+.banner9 .ban9{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban9 .first{
+    width: 32%;
+    height: 400px;
+}
+
+.ban9 .second{
+    width: 32%;
+    height: 400px;
+}
+
+.ban9 .third{
+    width: 32%;
+    height: 400px;
+}
+
+.ban9 .first .one{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .first .one img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .first .one .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .first .one .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .first .one .txt p{
+    font-size: 13px;
+}
+
+.ban9 .first .one .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban9 .first .two{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .first .two img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .first .two .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .first .two .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .first .two .txt p{
+    font-size: 13px;
+}
+
+.ban9 .first .two .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban9 .first .thre{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .first .thre img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .first .thre .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .first .thre .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .first .one .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban9 .first .thre .txt p{
+    font-size: 13px;
+}
+
+.ban9 .first .thre .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.ban9 .first .four{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .first .four img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .first .four .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .first .four .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .first .four .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban9 .first .four .txt p{
+    font-size: 13px;
+}
+
+.ban9 .first .four .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban9 .second .one{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .second .one img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .second .one .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .second .one .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .second .one .txt p{
+    font-size: 13px;
+}
+
+.ban9 .second .one .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban9 .second .two{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .second .two img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .second .two .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .second .two .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .second .two .txt p{
+    font-size: 13px;
+}
+
+.ban9 .second .two .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban9 .second .thre{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .second .thre img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .second .thre .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .second .thre .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .second .four .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban9 .second .thre .txt p{
+    font-size: 13px;
+}
+
+.ban9 .second .thre .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.ban9 .second .four{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .second .four img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .second .four .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .second .four .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .second .four .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban9 .second .four .txt p{
+    font-size: 13px;
+}
+
+.ban9 .second .four .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+
+.ban9 .third .one{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .third .one img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .third .one .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .third .one .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .third .one .txt p{
+    font-size: 13px;
+}
+
+.ban9 .third .one .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban9 .third .two{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .third .two img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .third .two .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .third .two .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .third .two .txt p{
+    font-size: 13px;
+}
+
+.ban9 .third .two .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+
+.ban9 .third .thre{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .third .thre img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .third .thre .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .third .thre .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .third .two .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban9 .third .thre .txt p{
+    font-size: 13px;
+}
+
+.ban9 .third .thre .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.ban9 .third .four{
+    display: flex;
+    height: 70px;
+    margin-bottom: 6px;
+}
+
+.ban9 .third .four img{
+    height: 55px;
+    width: 55px;
+}
+
+.ban9 .third .four .txt{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.ban9 .third .four .txt p img{
+    height: 5px;
+    width: 5px;
+}
+
+.ban9 .third .four .txt p .explicit{
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.ban9 .third .four .txt p{
+    font-size: 13px;
+}
+
+.ban9 .third .four .txt h4{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
